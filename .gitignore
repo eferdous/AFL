@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.log
+*.bak*
+*.save
+venv/
+.venv/
+logs/
+results/run_*/
+datasets/public_validation/raw/
+*.pcap
+*.zip

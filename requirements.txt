@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+flask
+requests
+eventlet==0.33.3
+ryu==4.34
