@@ -8,9 +8,9 @@ The aim is to detect anomalies in SDN traffic and adapt the detector when traffi
 
 The system compares:
 
-- STATIC baseline
-- GOMES2017-style adaptive threshold baseline
-- ARF_FIXED baseline
+- OnlineIDS2024 baseline
+- AdaptiveRF2024 baseline
+- StreamRF2025 baseline
 - PROPOSED AFL method
 
 ## Architecture
@@ -29,3 +29,14 @@ Feature Extraction
 Machine Learning Detector
    ↓
 Prediction, Feedback, Buffer, Adaptation
+
+## Updated comparison methods
+
+In the latest paper version, the proposed AFL method is compared with the following recent streaming IDS and adaptive forest baselines:
+
+- OnlineIDS2024
+- AdaptiveRF2024
+- StreamRF2025
+- Proposed AFL method
+
+The previous placeholder/baseline names such as STATIC, Gomes/GOMES2017, and ARF_FIXED have been removed from the documentation.
