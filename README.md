@@ -39,4 +39,4 @@ In the latest paper version, the proposed AFL method is compared with the follow
 - StreamRF2025
 - Proposed AFL method
 
-The previous placeholder/baseline names such as STATIC, Gomes/GOMES2017, and ARF_FIXED have been removed from the documentation.
+
